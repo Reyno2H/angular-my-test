@@ -1,0 +1,7 @@
+<button *ngIf="product.price >= 700" (click)="notify.emit()">
+  Notificame
+</button>
+
+<button *ngIf="product.price < 700" (click)="notify2.emit()">
+  Notificame2
+</button>

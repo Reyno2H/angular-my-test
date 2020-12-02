@@ -1,0 +1,31 @@
+.card2 {
+  width: 250px;
+  height: 40px;
+  background: rgb(12, 12, 12, 0.2);
+  border-width: 2;
+  border-color: black;
+  margin: 5px;
+}
+
+.card3 {
+  margin: 5px;
+  background: rgb(12, 123, 12, 0.2);
+}
+
+.new-container
+  div {
+    background: rgb(15,15, 15,.05);
+  }
+
+.zero div {
+  background: rgb(12, 12, 125, 0.2);
+}
+
+button {
+  min-width: 100px;
+}
+
+.container-one {
+  width: 100%;
+  margin: 20px;
+}

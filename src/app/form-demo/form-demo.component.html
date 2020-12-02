@@ -1,0 +1,21 @@
+<div fxLayout="column" fxLayoutAlign="start center">
+	<p>
+		form-demo works!
+	</p>
+
+	<form fxLayout="column" fxLayoutAlign="start center" [formGroup]="formDemo" (submit)="doSubmit()">
+
+		<input name="id" formControlName="id" required>
+		<input type="text" name="name" formControlName="name" required>
+		<input type="text" name="phono" formControlName="phono">
+
+		<button [disabled]="!formDemo.valid">
+      Amonos
+    </button>
+	</form>
+
+	<p>
+		None
+	</p>
+
+</div>
